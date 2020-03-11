@@ -300,18 +300,23 @@ sudo systemctl start httpd
 
 5. To format the block volume, Enter Command: 
 
+
 ```            
 sudo fdisk <DEVICE_PATH> -l 
 ```
 
-**For example sudo fdisk /dev/sdb -l**   
+
+**For example sudo fdisk /dev/sdb -l** 
+  
 Wait for formatting to complete
 
 6. Create a file system on the block volume, Enter Command: 
 
+
 ```
 sudo mkfs.ext4 -L datapartition <DEVICE_PATH> 
 ```         
+
 
 This will create the file system on the entire disk. Enter y when prompted with 'Proceed anyway'
 
