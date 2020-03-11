@@ -301,13 +301,13 @@ sudo systemctl start httpd
 5. To format the block volume, Enter Command: 
 
 
-```            
+```
 sudo fdisk <DEVICE_PATH> -l 
 ```
 
 
 **For example sudo fdisk /dev/sdb -l** 
-  
+
 Wait for formatting to complete
 
 6. Create a file system on the block volume, Enter Command: 
