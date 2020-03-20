@@ -52,17 +52,17 @@ how easy it is to move additional storage with applicatons/tools installed betwe
 
 ## Pre-Requisites
 
-1- Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
+1. Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
 
-2- OCI Training : https://cloud.oracle.com/en_US/iaas/training
+2. OCI Training : https://cloud.oracle.com/en_US/iaas/training
 
-3- Familiarity with OCI console: https://docs.us-phoenix-1.oraclecloud.com/Content/GSG/Concepts/console.htm
+3. Familiarity with OCI console: https://docs.us-phoenix-1.oraclecloud.com/Content/GSG/Concepts/console.htm
 
-4- Overview of Networking: https://docs.us-phoenix-1.oraclecloud.com/Content/Network/Concepts/overview.htm
+4. Overview of Networking: https://docs.us-phoenix-1.oraclecloud.com/Content/Network/Concepts/overview.htm
 
-5- Familiarity with Compartment: https://docs.us-phoenix-1.oraclecloud.com/Content/GSG/Concepts/concepts.htm
+5. Familiarity with Compartment: https://docs.us-phoenix-1.oraclecloud.com/Content/GSG/Concepts/concepts.htm
 
-6- Connecting to a compute instance: https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/accessinginstance.htm
+6. Connecting to a compute instance: https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/accessinginstance.htm
 
 
 ## Sign in to OCI Console and create VCN
@@ -74,11 +74,11 @@ how easy it is to move additional storage with applicatons/tools installed betwe
 * **Compartment:**{{Compartment}}
 
 
-1- Sign in using your tenant name, user name and password. Use the login option under **Oracle Cloud Infrastructure**
+1. Sign in using your tenant name, user name and password. Use the login option under **Oracle Cloud Infrastructure**
 
 <img src="https://raw.githubusercontent.com/oracle/learning-library/master/oci-library/qloudable/Grafana/img/Grafana_015.PNG" alt="image-alt-text">
 
-2- From the OCI Services menu,Click **Virtual Cloud Network**. Select the compartment assigned to you from drop down menu on left part of the screen under Networking and Click **Networking QuickStart**
+2. From the OCI Services menu,Click **Virtual Cloud Network**. Select the compartment assigned to you from drop down menu on left part of the screen under Networking and Click **Networking QuickStart**
 
 <img src="https://raw.githubusercontent.com/oracle/learning-library/master/oci-library/qloudable/OCI_Quick_Start/img/RESERVEDIP_HOL001.PNG" alt="image-alt-text">
 
@@ -86,9 +86,9 @@ how easy it is to move additional storage with applicatons/tools installed betwe
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 
 
-3- Click **VCN with Internet Connectivity** and click **Start Workflow**
+3. Click **VCN with Internet Connectivity** and click **Start Workflow**
 
-4- Fill out the dialog box:
+4. Fill out the dialog box:
 
 
 - **VCN NAME**: Provide a name
@@ -98,7 +98,7 @@ how easy it is to move additional storage with applicatons/tools installed betwe
 - **PRIVATE SUBNET CIDR BLOCK**: Provide a CIDR block (10.0.2.0/24)
 - Click **Next**
 
-5- Verify all the information and  Click **Create**
+5. Verify all the information and  Click **Create**
 
 6. This will create a VCN with followig components.
 
